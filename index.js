@@ -4,7 +4,9 @@
  * @returns {Array.<string>}
  */
 module.exports = function deepKeywords(data) {
-  if (!data) throw new Error("`data` can't be null!")
+  if (data === null || data === undefined)
+    throw new Error("`data` can't be null!")
+  if (!data) return []
 
   if (Array.isArray(data)) return data.map(deepKeywords).flat(Infinity)
   else if (typeof data === 'object')
