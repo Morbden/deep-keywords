@@ -1,0 +1,24 @@
+{
+  "name": "deep-keywords",
+  "version": "0.0.1",
+  "description": "Create a list of keywords based on the texts found",
+  "main": "index.js",
+  "exports": "./index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Morbden/deep-keywords.git"
+  },
+  "keywords": [
+    "keyword",
+    "search-engine"
+  ],
+  "author": "Morbden <ren.gsg@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Morbden/deep-keywords/issues"
+  },
+  "homepage": "https://github.com/Morbden/deep-keywords#readme"
+}
