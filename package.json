@@ -1,9 +1,9 @@
 {
   "name": "deep-keywords",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Create a list of keywords based on the texts found",
   "main": "index.js",
-  "exports": "./index.js",
+  "exports": "./src/index.js",
   "scripts": {
     "test": "node test.js"
   },
